@@ -24,7 +24,7 @@ const AddTodo = ({ addTodo }) => {
 const TodoFilter = ({ setFilter }) => {
   return (
     <div className="center-content">
-      <button onClick={() => setFilter("all")}>Todos</button>
+      <button onClick={() => setFilter("all")}>To-do</button>
       <button onClick={() => setFilter("done")}>Concluídos</button>
       <button onClick={() => setFilter("pending")}>Pendentes</button>
     </div>
